@@ -8,7 +8,7 @@ int main(){
 
     cout << "Welcome to the three word story game.  How many rounds do you want?" << endl;
     
-    cin >> rounds;
+    getline(cin, rounds);
     
     for(int i = 0; i < rounds; i++){
         add_to_story(the_story);
